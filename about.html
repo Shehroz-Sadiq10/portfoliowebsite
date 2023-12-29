@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1f242d;
+            color: #495057;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #1f242d;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #ffffff;
+            margin: 0 15px;
+            position: relative;
+            font-weight: 700;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #0ef;
+        }
+
+        .about-section {
+            text-align: center;
+            padding: 50px;
+            background-color: #0ef;
+            color: black;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        .about-section h2 {
+            color: black;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .about-section p:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="index.html" style="--i:1">Home</a>
+            <a href="about.html" class="active" style="--i:2">About</a>
+            <a href="skills.html" style="--i:3">Skills</a>
+            
+            <a href="contact.html" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about-section">
+        <h2>About Me</h2>
+        <b><p>Welcome to my portfolio! I'm passionate about web development
+             and creating meaningful digital experiences.
+        </p></b>
+        <b><p>With a strong foundation in HTML, CSS, and JavaScript,
+             I enjoy building responsive and user-friendly websites.
+              My skills also extend to frameworks like React and backend
+               technologies like Node.js.
+        </p></b>
+        <b><p>Constantly learning and exploring new technologies,
+             I strive to stay updated with the latest trends in
+              the ever-evolving world of web development.
+        </p></b>
+        <b><p>Feel free to explore my projects and get in touch if
+             you have any questions or collaboration opportunities!
+        </p></b>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
